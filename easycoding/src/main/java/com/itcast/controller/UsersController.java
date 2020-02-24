@@ -30,6 +30,7 @@ public class UsersController {
     @GetMapping("selectOne")
     public Users selectOne(String id) {
         return this.usersService.queryById(id);
+        System.out.print("z");
     }
 
 }
